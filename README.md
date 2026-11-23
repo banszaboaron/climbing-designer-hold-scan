@@ -129,3 +129,7 @@ The optional test `ROOMANTIC_SAMPLE=<Roomantic repo>/RoomanticLibTest/images npm
 - **Roomantic** (iOS capture app and its C++ reconstruction library): Yuropa, GlitchCraftStudio and Áron Bán-Szabó. `roomantic-occupancy.ts` re-expresses its reconstruction algorithm in TypeScript for comparison; no Swift or C++ code is copied. One camera file from its test capture appears verbatim as a test fixture.
 - Marching-cubes edge and triangle tables: [three.js](https://threejs.org) (MIT), imported from `three/addons`.
 - Built with help from AI coding assistants; design decisions, testing and evaluation are mine.
+
+## License
+
+[MIT](LICENSE) for the code in this repository, **except** `src/domain/roomantic-occupancy.ts` and the Roomantic camera-file fixture (co-authored Roomantic work, no licence yet) and the screenshots in `docs/images`. See [LICENSE](LICENSE).
