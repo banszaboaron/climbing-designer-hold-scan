@@ -1,0 +1,504 @@
+{
+ "node": "v24.11.1",
+ "date": "2026-11-22T16:34:15.526Z",
+ "rows": [
+  {
+   "hold": "sloper",
+   "scenario": "σ 1.5 mm, 48 frames",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.4106167999999998,
+   "watertight": true,
+   "triangles": 15012,
+   "accuracyMm": 0.646117457416426,
+   "accuracy95Mm": 1.9785676715717744,
+   "completenessMm": 0.7730102066018032,
+   "fScore2mm": 0.9386378103586224,
+   "sizeErrorMm": [
+    -4.091650007925191,
+    -1.9675577197229566,
+    0.13007120572397848
+   ],
+   "volumeErrorPct": -4.502206015601606,
+   "rotation": 180,
+   "simulate": 2.9874739
+  },
+  {
+   "hold": "sloper",
+   "scenario": "σ 1.5 mm, 48 frames",
+   "method": "TSDF mesh as PLY + table → PLY path",
+   "seconds": 1.2329214000000002,
+   "watertight": true,
+   "triangles": 14700,
+   "accuracyMm": 0.6229423197426776,
+   "accuracy95Mm": 1.7843295249842739,
+   "completenessMm": 0.7173160734662257,
+   "fScore2mm": 0.9500610633978709,
+   "sizeErrorMm": [
+    -4.636686531263923,
+    -2.9607805289186553,
+    0.11813233071105572
+   ],
+   "volumeErrorPct": -5.558083274739745,
+   "rotation": 180
+  },
+  {
+   "hold": "sloper",
+   "scenario": "σ 1.5 mm, 48 frames",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "failed": "A síkból nem emelkedik ki fogás a felvétel közepén. Tartsd középen a fogást, és járd körbe.",
+   "seconds": 0.49136859999999977
+  },
+  {
+   "hold": "sloper",
+   "scenario": "σ 4 mm, 48 frames",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.31588860000000024,
+   "watertight": true,
+   "triangles": 13484,
+   "accuracyMm": 1.1047804207970124,
+   "accuracy95Mm": 3.5417239622456242,
+   "completenessMm": 1.0736686725528628,
+   "fScore2mm": 0.8065017546177391,
+   "sizeErrorMm": [
+    -9.040407497997172,
+    -6.502609888909438,
+    0.2537938067820322
+   ],
+   "volumeErrorPct": -8.464158683761314,
+   "rotation": 180,
+   "simulate": 2.8713065000000006
+  },
+  {
+   "hold": "sloper",
+   "scenario": "σ 4 mm, 48 frames",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "seconds": 0.6080000999999975,
+   "watertight": true,
+   "triangles": 7632,
+   "accuracyMm": 4.892239508402155,
+   "accuracy95Mm": 10,
+   "completenessMm": 4.895364730431407,
+   "fScore2mm": 0.31907015638200037,
+   "sizeErrorMm": [
+    -26.121443232924314,
+    -24.73657602565904,
+    18.39610920078694
+   ],
+   "volumeErrorPct": -9.049340485171042,
+   "rotation": 0
+  },
+  {
+   "hold": "sloper",
+   "scenario": "σ 1.5 mm, 12 frames",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.15212510000000476,
+   "watertight": true,
+   "triangles": 15328,
+   "accuracyMm": 0.5288507361617525,
+   "accuracy95Mm": 1.6259008169705653,
+   "completenessMm": 0.6249893808049414,
+   "fScore2mm": 0.9613058380316415,
+   "sizeErrorMm": [
+    -2.983644490890003,
+    -2.1701279822359254,
+    0.18754872810190434
+   ],
+   "volumeErrorPct": -4.623920015463423,
+   "rotation": 180,
+   "simulate": 0.7077039999999979
+  },
+  {
+   "hold": "sloper",
+   "scenario": "σ 1.5 mm, 12 frames",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "failed": "A PLY-fájlban nincs a síkból kiemelkedő tárgy.",
+   "seconds": 0.14991370000000462
+  },
+  {
+   "hold": "sloper",
+   "scenario": "σ 1.5 mm, drift 1 mm",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.3031198000000004,
+   "watertight": true,
+   "triangles": 14996,
+   "accuracyMm": 0.5419345298276763,
+   "accuracy95Mm": 1.669184052107998,
+   "completenessMm": 0.628197744754753,
+   "fScore2mm": 0.963173779834977,
+   "sizeErrorMm": [
+    -4.300056689448272,
+    -1.4119862165252046,
+    0.19444518920820955
+   ],
+   "volumeErrorPct": -4.033797247382498,
+   "rotation": 0,
+   "simulate": 3.0469231
+  },
+  {
+   "hold": "sloper",
+   "scenario": "σ 1.5 mm, drift 1 mm",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "failed": "A síkból nem emelkedik ki fogás a felvétel közepén. Tartsd középen a fogást, és járd körbe.",
+   "seconds": 0.1823871999999974
+  },
+  {
+   "hold": "sloper",
+   "scenario": "one top-down photo, perfect depth, true size given",
+   "method": "Single-photo relief (1.2.0), oracle",
+   "seconds": 0.24835100000000238,
+   "watertight": null,
+   "triangles": 26980,
+   "accuracyMm": 1.13543272322426,
+   "accuracy95Mm": 3.5401028504178718,
+   "completenessMm": 1.2969686871337445,
+   "fScore2mm": 0.741024358510087,
+   "sizeErrorMm": [
+    0,
+    0.5453787352828615,
+    0
+   ],
+   "volumeErrorPct": 12.17269074614926,
+   "rotation": 180
+  },
+  {
+   "hold": "jug",
+   "scenario": "σ 1.5 mm, 48 frames",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.33997700000000625,
+   "watertight": true,
+   "triangles": 12064,
+   "accuracyMm": 0.6538895576948928,
+   "accuracy95Mm": 1.9891636434499391,
+   "completenessMm": 0.7475440441095386,
+   "fScore2mm": 0.9376752273323647,
+   "sizeErrorMm": [
+    -0.7371653655457028,
+    -1.2903437604730867,
+    -0.5204348446840035
+   ],
+   "volumeErrorPct": -3.1367347768211484,
+   "rotation": 0,
+   "simulate": 3.838784400000004
+  },
+  {
+   "hold": "jug",
+   "scenario": "σ 1.5 mm, 48 frames",
+   "method": "TSDF mesh as PLY + table → PLY path",
+   "seconds": 0.7071448000000019,
+   "watertight": true,
+   "triangles": 11888,
+   "accuracyMm": 0.7085394992411291,
+   "accuracy95Mm": 2.224678758659182,
+   "completenessMm": 0.8047248769264259,
+   "fScore2mm": 0.922607819755531,
+   "sizeErrorMm": [
+    -1.7685598433211798,
+    -2.7143788901381196,
+    -0.6884587828875355
+   ],
+   "volumeErrorPct": -4.1987750718096795,
+   "rotation": 180
+  },
+  {
+   "hold": "jug",
+   "scenario": "σ 1.5 mm, 48 frames",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "seconds": 0.4463382999999958,
+   "watertight": true,
+   "triangles": 5816,
+   "accuracyMm": 8.093872265973188,
+   "accuracy95Mm": 10,
+   "completenessMm": 7.572986604228538,
+   "fScore2mm": 0.11763437685603545,
+   "sizeErrorMm": [
+    157.3493484559113,
+    22.24185591230868,
+    -8.331447792570543
+   ],
+   "volumeErrorPct": -13.689377403701341,
+   "rotation": 180
+  },
+  {
+   "hold": "jug",
+   "scenario": "σ 4 mm, 48 frames",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.3021999999999971,
+   "watertight": true,
+   "triangles": 10984,
+   "accuracyMm": 0.9690757072909819,
+   "accuracy95Mm": 3.072147497037881,
+   "completenessMm": 1.027411498753833,
+   "fScore2mm": 0.8302539637102413,
+   "sizeErrorMm": [
+    -5.193873381058936,
+    -4.964870115215708,
+    -0.4939840945596338
+   ],
+   "volumeErrorPct": -5.514740012048036,
+   "rotation": 180,
+   "simulate": 4.45666919999999
+  },
+  {
+   "hold": "jug",
+   "scenario": "σ 4 mm, 48 frames",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "seconds": 0.6725204999999987,
+   "watertight": true,
+   "triangles": 1540,
+   "accuracyMm": 7.265141143083147,
+   "accuracy95Mm": 10,
+   "completenessMm": 9.414468626309915,
+   "fScore2mm": 0.020468283253383266,
+   "sizeErrorMm": [
+    -50.77062435555936,
+    -44.966916828650696,
+    -31.481073298422714
+   ],
+   "volumeErrorPct": -93.29343588278445,
+   "rotation": 180
+  },
+  {
+   "hold": "jug",
+   "scenario": "σ 1.5 mm, 12 frames",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.1458237999999983,
+   "watertight": true,
+   "triangles": 12432,
+   "accuracyMm": 0.6769103583233689,
+   "accuracy95Mm": 2.0673946195699435,
+   "completenessMm": 0.7604058476813409,
+   "fScore2mm": 0.9351820914222368,
+   "sizeErrorMm": [
+    0.2484418654521009,
+    -2.0460893837619953,
+    -0.3792980182769981
+   ],
+   "volumeErrorPct": -3.337631646042327,
+   "rotation": 180,
+   "simulate": 0.9636849999999977
+  },
+  {
+   "hold": "jug",
+   "scenario": "σ 1.5 mm, 12 frames",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "failed": "A PLY-fájlban nincs a síkból kiemelkedő tárgy.",
+   "seconds": 0.1990691999999981
+  },
+  {
+   "hold": "jug",
+   "scenario": "σ 1.5 mm, drift 1 mm",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.29025360000001094,
+   "watertight": true,
+   "triangles": 12064,
+   "accuracyMm": 0.7396509916951095,
+   "accuracy95Mm": 2.3932879901664523,
+   "completenessMm": 0.8681554561270715,
+   "fScore2mm": 0.9013485935703889,
+   "sizeErrorMm": [
+    -1.3934079827366137,
+    -1.1790307349405782,
+    -0.6429521816735049
+   ],
+   "volumeErrorPct": -4.027966133054772,
+   "rotation": 0,
+   "simulate": 4.553415399999998
+  },
+  {
+   "hold": "jug",
+   "scenario": "σ 1.5 mm, drift 1 mm",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "seconds": 0.4660528999999951,
+   "watertight": true,
+   "triangles": 236,
+   "accuracyMm": 6.323990098215527,
+   "accuracy95Mm": 9.34036200515222,
+   "completenessMm": 9.86877382006968,
+   "fScore2mm": 0,
+   "sizeErrorMm": [
+    -91.73342636502872,
+    -67.30936444875931,
+    -41.20293665036542
+   ],
+   "volumeErrorPct": -99.45596167549066,
+   "rotation": 0
+  },
+  {
+   "hold": "jug",
+   "scenario": "one top-down photo, perfect depth, true size given",
+   "method": "Single-photo relief (1.2.0), oracle",
+   "seconds": 0.3265849000000017,
+   "watertight": null,
+   "triangles": 24096,
+   "accuracyMm": 2.4964189262538286,
+   "accuracy95Mm": 8.39522725180016,
+   "completenessMm": 2.815750422534282,
+   "fScore2mm": 0.5525545183070715,
+   "sizeErrorMm": [
+    -1.3877787807814457e-14,
+    -4.476085453831074,
+    0
+   ],
+   "volumeErrorPct": 29.0799601237552,
+   "rotation": 0
+  },
+  {
+   "hold": "crimp",
+   "scenario": "σ 1.5 mm, 48 frames",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.14560710000000837,
+   "watertight": true,
+   "triangles": 3908,
+   "accuracyMm": 0.5143652975993196,
+   "accuracy95Mm": 1.5085547458621387,
+   "completenessMm": 0.6320801141839486,
+   "fScore2mm": 0.976730725698681,
+   "sizeErrorMm": [
+    1.1330376908949003,
+    -0.6287251437217047,
+    0.11178397171699925
+   ],
+   "volumeErrorPct": -6.715629199384143,
+   "rotation": 0,
+   "simulate": 3.676145099999994
+  },
+  {
+   "hold": "crimp",
+   "scenario": "σ 1.5 mm, 48 frames",
+   "method": "TSDF mesh as PLY + table → PLY path",
+   "seconds": 0.30043480000001727,
+   "watertight": true,
+   "triangles": 3732,
+   "accuracyMm": 0.5118360872434687,
+   "accuracy95Mm": 1.4133549430528773,
+   "completenessMm": 0.6178805991742491,
+   "fScore2mm": 0.9804068104969922,
+   "sizeErrorMm": [
+    0.12006373120485025,
+    -1.2007160068599823,
+    -0.3121263932133571
+   ],
+   "volumeErrorPct": -7.472097660321053,
+   "rotation": 180
+  },
+  {
+   "hold": "crimp",
+   "scenario": "σ 1.5 mm, 48 frames",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "failed": "A PLY-fájlban nincs a síkból kiemelkedő tárgy.",
+   "seconds": 0.11596080000000074
+  },
+  {
+   "hold": "crimp",
+   "scenario": "σ 4 mm, 48 frames",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.16478059999999822,
+   "watertight": true,
+   "triangles": 3600,
+   "accuracyMm": 0.800373927973871,
+   "accuracy95Mm": 2.159754065648719,
+   "completenessMm": 0.8349966630728747,
+   "fScore2mm": 0.9162312425638969,
+   "sizeErrorMm": [
+    2.8268745147725234,
+    -1.2083582997806097,
+    0.3088793595598417
+   ],
+   "volumeErrorPct": -5.883873841201249,
+   "rotation": 0,
+   "simulate": 2.9027407999999997
+  },
+  {
+   "hold": "crimp",
+   "scenario": "σ 4 mm, 48 frames",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "seconds": 0.3918864000000176,
+   "watertight": true,
+   "triangles": 8200,
+   "accuracyMm": 9.11597917415009,
+   "accuracy95Mm": 10,
+   "completenessMm": 5.6628176485187245,
+   "fScore2mm": 0.07987321335235828,
+   "sizeErrorMm": [
+    428.3892086588968,
+    -7.791631301337129,
+    7.3535024306254915
+   ],
+   "volumeErrorPct": 308.15477292985446,
+   "rotation": 180
+  },
+  {
+   "hold": "crimp",
+   "scenario": "σ 1.5 mm, 12 frames",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.08493669999999111,
+   "watertight": true,
+   "triangles": 4308,
+   "accuracyMm": 0.5339228222969531,
+   "accuracy95Mm": 1.5025570371978272,
+   "completenessMm": 0.644404820548367,
+   "fScore2mm": 0.977364385299435,
+   "sizeErrorMm": [
+    1.2899547859054477,
+    0.004180415158261397,
+    0.14473369218161863
+   ],
+   "volumeErrorPct": -6.961406612655397,
+   "rotation": 0,
+   "simulate": 0.7424127000000154
+  },
+  {
+   "hold": "crimp",
+   "scenario": "σ 1.5 mm, 12 frames",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "failed": "A PLY-fájlban nincs a síkból kiemelkedő tárgy.",
+   "seconds": 0.08091810000000987
+  },
+  {
+   "hold": "crimp",
+   "scenario": "σ 1.5 mm, drift 1 mm",
+   "method": "TSDF 2 mm (1.3.0)",
+   "seconds": 0.14464910000000963,
+   "watertight": true,
+   "triangles": 3864,
+   "accuracyMm": 0.6609011402653552,
+   "accuracy95Mm": 2.362853626516259,
+   "completenessMm": 0.7984524025790228,
+   "fScore2mm": 0.908140921940918,
+   "sizeErrorMm": [
+    0.7872039102184564,
+    0.35388442879193127,
+    -0.3270078807641984
+   ],
+   "volumeErrorPct": -7.564135079573775,
+   "rotation": 0,
+   "simulate": 2.9866871999999858
+  },
+  {
+   "hold": "crimp",
+   "scenario": "σ 1.5 mm, drift 1 mm",
+   "method": "Roomantic occupancy 1 cm → PLY path",
+   "failed": "A PLY-fájlban nincs a síkból kiemelkedő tárgy.",
+   "seconds": 0.12219509999998263
+  },
+  {
+   "hold": "crimp",
+   "scenario": "one top-down photo, perfect depth, true size given",
+   "method": "Single-photo relief (1.2.0), oracle",
+   "seconds": 0.2888102000000072,
+   "watertight": null,
+   "triangles": 11632,
+   "accuracyMm": 3.6985451991857237,
+   "accuracy95Mm": 8.774282872139976,
+   "completenessMm": 0.9747189453502951,
+   "fScore2mm": 0.4930245562672168,
+   "sizeErrorMm": [
+    -0.6363636363636294,
+    -3.2669284772633422,
+    0
+   ],
+   "volumeErrorPct": -74.85188555528151,
+   "rotation": 0
+  }
+ ]
+}

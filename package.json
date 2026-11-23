@@ -1,0 +1,23 @@
+{
+  "name": "climbing-designer-hold-scan",
+  "version": "1.3.0",
+  "private": true,
+  "description": "LiDAR capture to watertight, metric climbing-hold mesh: plane-aware TSDF fusion, benchmark and tests (public part of Climbing Designer).",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "benchmark": "node scripts/scan-benchmark.mjs --json docs/benchmark.json",
+    "demo": "node scripts/make-demo-capture.mjs jug demo-jug.zip 40 && node scripts/scan-cli.mjs demo-jug.zip demo-jug.ply"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "typescript": "7.0.2"
+  }
+}
